@@ -1,6 +1,6 @@
 {
   "name": "remote_address_parser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "get ip remote address",
   "main": "remote_address.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "nodejs.jsx": "~0.1.4",
     "jsx": "~0.9.83",
     "nock.jsx": "~0.1.0",
-    "jsx-linker": "~0.1.5"
+    "jsx-linker": "~0.1.5",
+    "express": "~3.5.0"
   }
 }
