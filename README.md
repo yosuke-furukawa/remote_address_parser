@@ -1,4 +1,4 @@
-Remote Address for JSX
+Remote Address for JSX [![Build Status](https://travis-ci.org/yosuke-furukawa/remote_address_parser.svg?branch=master)](https://travis-ci.org/yosuke-furukawa/remote_address_parser)
 =======================
 
 client IP address parser for JSX
