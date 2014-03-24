@@ -1,0 +1,30 @@
+{
+  "name": "remote_address_parser",
+  "version": "0.1.0",
+  "description": "get ip remote address",
+  "main": "remote_address.js",
+  "scripts": {
+    "test": "jsx --add-search-path lib --test t/remote_address_parser.jsx",
+    "build": "jsx lib/remote_address_parser.jsx | jsx-linker -t commonjs-lib --stdin -o remote_address.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosuke-furukawa/remote_address_parser"
+  },
+  "keywords": [
+    "remote",
+    "address",
+    "parse",
+    "jsx"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/remote_address_parser/issues"
+  },
+  "devDependencies": {
+    "nodejs.jsx": "~0.1.4",
+    "jsx": "~0.9.83",
+    "nock.jsx": "~0.1.0"
+  }
+}
